@@ -1,26 +1,20 @@
-# Ember-cli-tachyons-shims
+# ember-cli-tachyons-shim
 
-This README outlines the details of collaborating on this Ember addon.
+> :package: Drops Tachyons into your Ember app's `vendor` directory.
 
-## Installation
+### Usage
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install --save-dev https://github.com/wizvishak/ember-cli-tachyons-shim.git
+ember g ember-cli-tachyons-shim
+```
 
-## Running
+In order to upgrade, follow the same steps as above as release version numbers are shared with [Tachyons](https://github.com/tachyons-css/tachyons) itself. 
 
-* `ember serve`
-* Visit your app at http://localhost:4200.
+### Contribute
 
-## Running Tests
+Feel free to submit pull requests for issues/updates.
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+### License
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+MIT

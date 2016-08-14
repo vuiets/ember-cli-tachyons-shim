@@ -1,8 +1,7 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
 # compiled output
 /dist
 /tmp
+/vendor/*.css
 
 # dependencies
 /node_modules
@@ -15,3 +14,4 @@
 /libpeerconnection.log
 npm-debug.log
 testem.log
+/.idea
