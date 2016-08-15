@@ -8,25 +8,18 @@ module.exports = {
 
 	afterInstall: function (options) {
 		var promise = new Promise((resolve, reject) => {
-			this.addPackageToProject('tachyons', '4.0.5').then((success) => {
-
-				var fs = require('fs');
-				var path = require('path');
-
+			this.addPackageToProject('tachyons', '4.1.0').then((success) => {
 				try {
-					var tachyonsCssDir = path.join('node_modules', 'tachyons', 'css');
+					var fs = require('fs');
 
 					['tachyons.css', 'tachyons.min.css'].forEach((file) => {
-						fs.createReadStream(path.join(tachyonsCssDir, file))
-							.pipe(fs.createWriteStream(path.join('vendor', file)));
-					})
+						fs.createReadStream('node_modules/tachyons/css/' + file)
+							.pipe(fs.createWriteStream('vendor/' + file));
+					});
 				} catch (err) {
-					reject(err)
+					throw err;
 				}
-
-			}, (failure) => {
-				reject(failure);
-			})
+			});
 		});
 
 		return promise;
