@@ -15,6 +15,9 @@ Release version numbers are shared with [Tachyons](https://github.com/tachyons-c
 
 Feel free to submit pull requests for issues/updates.
 
+### Thanks To
+[@tachyons-css/tachyons](https://github.com/tachyons-css/tachyons/)
+
 ### License
 
 MIT
