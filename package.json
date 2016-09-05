@@ -1,6 +1,6 @@
 {
 	"name": "ember-cli-tachyons-shim",
-	"version": "4.2.0",
+	"version": "4.2.1",
 	"description": "Brings Tachyons to your Ember app.",
 	"main": "index.js",
 	"directories": {
