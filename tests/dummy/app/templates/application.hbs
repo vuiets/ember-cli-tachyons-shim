@@ -1,0 +1,22 @@
+{{#each movies as |movie|}}
+    <article data-name="article-full-bleed-background">
+        <div class="cf"
+             style="background: url(http://thestudio.carrotrevolution.com/wp-content/uploads/2015/05/928681-christopher-nolan.jpg) no-repeat center left fixed; background-size: contain;">
+            <div class="fr pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
+                <header class="bb b--black-70 pv4">
+                    <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">{{movie.show_title}}</h3>
+                    <h4 class="f3 fw4 i lh-title mt0">{{movie.release_year}}</h4>
+                </header>
+                <section class="pt5 pb4">
+                    <p class="times lh-copy">
+						{{movie.summary}}
+                    </p>
+
+                    <p class="times lh-copy measure f4 mt0">
+                        <strong>Cast:</strong> {{movie.show_cast}}
+                    </p>
+                </section>
+            </div>
+        </div>
+    </article>
+{{/each}}
