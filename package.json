@@ -14,10 +14,9 @@
 	"scripts": {
 		"build": "ember build",
 		"start": "ember server",
-		"test": "ember try:each",
+		"test": "mocha test",
 		"test:dev": "rm -rf tmp dist && ember build && tree dist/assets -h",
-		"test:prod": "rm -rf tmp dist && ember build --environment production && tree dist/assets -h",
-		"test:sandbox": "mocha test"
+		"test:prod": "rm -rf tmp dist && ember build --environment production && tree dist/assets -h"
 	},
 	"repository": {
 		"type": "git",
@@ -59,7 +58,11 @@
 		"tachyons": "^4.5.3"
 	},
 	"keywords": [
-		"ember-addon"
+		"ember-addon",
+		"tachyons-css",
+		"tachyons",
+		"functional-css",
+		"responsive"
 	],
 	"dependencies": {
 		"ember-cli-babel": "^5.1.6"

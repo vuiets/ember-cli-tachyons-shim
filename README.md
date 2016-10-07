@@ -10,7 +10,7 @@
 ember install ember-cli-tachyons-shim 
 ```
 
-This will drop Tachyons into your Ember app's `vendor` directory and import it into your app's `vendor.css`.
+This addon will drop Tachyons into your Ember app's `vendor` directory and import it into your app's `vendor.css`.
 
 ```
 vendor/
@@ -31,7 +31,7 @@ Here are some whacky things built for the web with tachyons.
 - [Websites](https://github.com/tachyons-css/tachyons/#websites-that-use-tachyons)
 - [Components](http://tachyons.io/components/)
 
-### Thank
+### Credits
 [@tachyons-css/tachyons](https://github.com/tachyons-css/tachyons/)
 
 ### License
