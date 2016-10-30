@@ -55,7 +55,7 @@
 		"glob": "^7.1.1",
 		"loader.js": "^4.0.1",
 		"mocha": "^3.1.0",
-		"tachyons": "^4.5.3"
+		"tachyons": "^4.5.4"
 	},
 	"keywords": [
 		"ember-addon",
