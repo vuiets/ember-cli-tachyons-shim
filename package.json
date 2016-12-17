@@ -1,36 +1,42 @@
 {
 	"name": "ember-cli-tachyons-shim",
-	"version": "4.5.5",
+	"version": "4.6.0",
 	"description": "Brings Tachyons to your Ember app.",
-	"main": "index.js",
-	"directories": {
-		"doc": "doc",
-		"test": "tests"
+	"keywords": [
+		"ember-addon",
+		"functional-css",
+		"responsive",
+		"tachyons",
+		"tachyons-css"
+	],
+	"license": "MIT",
+	"author": {
+		"name": "Visahavel Parthasarathy",
+		"url": "https://github.com/wizvishak"
 	},
 	"files": [
 		"blueprints",
 		"index.js"
 	],
-	"scripts": {
-		"build": "ember build",
-		"start": "ember server",
-		"test": "mocha test",
-		"quicktest:dev": "rm -rf tmp dist && ember build && tree dist/assets -h",
-		"quicktest:prod": "rm -rf tmp dist && ember build --environment production && tree dist/assets -h"
+	"main": "index.js",
+	"directories": {
+		"doc": "doc",
+		"test": "tests"
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/wizvishak/ember-cli-tachyons-shim"
 	},
-	"engines": {
-		"node": ">= 0.12.0"
+	"scripts": {
+		"build": "ember build",
+		"quicktest:dev": "rm -rf tmp dist && ember build && tree dist/assets -h",
+		"quicktest:prod": "rm -rf tmp dist && ember build --environment production && tree dist/assets -h",
+		"start": "ember server",
+		"test": "mocha test"
 	},
-	"author": {
-		"name": "Visahavel Parthasarathy",
-		"url": "https://github.com/wizvishak"
+	"dependencies": {
+		"ember-cli-babel": "^5.1.7"
 	},
-	"readmeFilename": "README.md",
-	"license": "MIT",
 	"devDependencies": {
 		"broccoli-asset-rev": "^2.4.5",
 		"chai": "^3.5.0",
@@ -55,19 +61,13 @@
 		"glob": "^7.1.1",
 		"loader.js": "^4.0.10",
 		"mocha": "^3.1.0",
-		"tachyons": "^4.5.5"
+		"tachyons": "^4.6.0"
 	},
-	"keywords": [
-		"ember-addon",
-		"tachyons-css",
-		"tachyons",
-		"functional-css",
-		"responsive"
-	],
-	"dependencies": {
-		"ember-cli-babel": "^5.1.7"
+	"engines": {
+		"node": ">= 0.12.0"
 	},
 	"ember-addon": {
 		"configPath": "tests/dummy/config"
-	}
+	},
+	"readmeFilename": "README.md"
 }
