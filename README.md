@@ -28,8 +28,8 @@ Feel free to submit pull requests for issues/updates.
 
 ### Showcase
 Here are some whacky things built for the web with tachyons.
-- [Websites](https://github.com/tachyons-css/tachyons/#websites-that-use-tachyons)
 - [Components](http://tachyons.io/components/)
+- [Gallery](http://tachyons.io/gallery/)
 
 ### Credits
 [@tachyons-css/tachyons](https://github.com/tachyons-css/tachyons/)
