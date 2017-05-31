@@ -35,7 +35,7 @@
 		"test": "mocha test"
 	},
 	"dependencies": {
-		"ember-cli-babel": "^5.1.7"
+		"ember-cli-babel": "^6.2.0"
 	},
 	"devDependencies": {
 		"broccoli-asset-rev": "^2.4.5",
