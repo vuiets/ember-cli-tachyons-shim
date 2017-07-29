@@ -10,6 +10,6 @@ export default function startApp(attrs) {
 		let application = Application.create(attributes);
 		application.setupForTesting();
 		application.injectTestHelpers();
-    return application;
+		return application;
 	});
 }

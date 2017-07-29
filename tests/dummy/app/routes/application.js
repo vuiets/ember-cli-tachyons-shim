@@ -6,7 +6,7 @@ export default Route.extend({
 
 	model() {
 		const director = 'Christopher Nolan',
-			netflixAPI = `http://netflixroulette.net/api/api.php?director=${director}`;
+			netflixAPI = `https://netflixroulette.net/api/api.php?director=${director}`;
 
 		return this.get('ajax').request(netflixAPI, {
 			method: 'GET'
