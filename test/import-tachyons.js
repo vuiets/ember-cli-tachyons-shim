@@ -6,7 +6,7 @@ var AddonTestApp = require('ember-cli-addon-tests').AddonTestApp;
 var expect = chai.expect;
 chai.use(chaifs);
 
-describe('acceptance: import tachyons css', function () {
+describe.skip('acceptance: import tachyons css', function () {
 	this.timeout(300000);
 
 	var app;
