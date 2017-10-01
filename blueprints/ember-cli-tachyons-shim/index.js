@@ -8,7 +8,7 @@ module.exports = {
 
 	afterInstall: function (options) {
 		var promise = new Promise((resolve, reject) => {
-			this.addPackageToProject('tachyons', '4.8.0').then((success) => {
+			this.addPackageToProject('tachyons', '4.8.1').then((success) => {
 				try {
 					var fs = require('fs');
 
