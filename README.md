@@ -1,5 +1,7 @@
 # ember-cli-tachyons-shim
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/wizvishak/ember-cli-tachyons-shim.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/wizvishak/ember-cli-tachyons-shim.png?branch=master)](https://travis-ci.org/wizvishak/ember-cli-tachyons-shim)
 
 > :package: Brings the amazing [tachyons](http://tachyons.io/) CSS library to your Ember app.
