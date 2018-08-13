@@ -38,7 +38,7 @@
 		"ember-cli-babel": "^6.3.0"
 	},
 	"devDependencies": {
-		"broccoli-asset-rev": "^2.4.5",
+		"broccoli-asset-rev": "^3.0.0",
 		"chai": "^4.1.0",
 		"chai-fs": "^1.0.0",
 		"ember-ajax": "^3.0.0",
