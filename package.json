@@ -62,7 +62,7 @@
 		"ember-load-initializers": "^1.0.0",
 		"ember-resolver": "^4.0.0",
 		"ember-source": "~2.14.1",
-		"glob": "^7.1.1",
+		"glob": "^7.1.6",
 		"loader.js": "^4.2.3",
 		"mocha": "^3.4.2",
 		"tachyons": "4.9.1"
