@@ -1,3 +1,5 @@
+#### :warning: Deprecated
+
 # ember-cli-tachyons-shim
 
 [![npm](https://img.shields.io/npm/v/ember-cli-tachyons-shim.svg)](https://www.npmjs.com/package/ember-cli-tachyons-shim)
